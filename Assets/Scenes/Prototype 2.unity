@@ -617,7 +617,7 @@ PrefabInstance:
     - target: {fileID: 525469280518048721, guid: d58fa946c2e7f3a45b042d1b5d31f52e,
         type: 3}
       propertyPath: m_Name
-      value: Dog_GermanShepherd_01
+      value: Dog
       objectReference: {fileID: 0}
     - target: {fileID: 525469280518391203, guid: d58fa946c2e7f3a45b042d1b5d31f52e,
         type: 3}
@@ -686,7 +686,7 @@ PrefabInstance:
     - target: {fileID: 5460976247102441735, guid: feae11cc7a4b4b74fae18d66505d3cee,
         type: 3}
       propertyPath: m_Name
-      value: Animal_Rooster_Brown
+      value: Chicken
       objectReference: {fileID: 0}
     - target: {fileID: 5460976247102622135, guid: feae11cc7a4b4b74fae18d66505d3cee,
         type: 3}
@@ -824,7 +824,7 @@ PrefabInstance:
     - target: {fileID: 6923629123321559583, guid: e5be3d107849b854bb2ee16a36e5baef,
         type: 3}
       propertyPath: m_Name
-      value: Animal_Moose_01
+      value: Moose
       objectReference: {fileID: 0}
     - target: {fileID: 6923629123321834605, guid: e5be3d107849b854bb2ee16a36e5baef,
         type: 3}
