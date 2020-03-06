@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3 (xBound, transform.position.y, transform.position.z);
         }
+        
         // Z axis bounds
         if (transform.position.z < -zBound) 
         {
