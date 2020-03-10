@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
 {
    public string axisName = "Set Input Axis";
     public float speed = 10.0f;
-    public float xBound = 12.0f;
-    public float zBound = 12.0f;
+    public float xBound = 15.0f;
+    public float zBound = 15.0f;
     public string AxisName = "Set Input Axis";
 
     // Start is called before the first frame update
@@ -42,11 +42,11 @@ public class PlayerController : MonoBehaviour
         // Z axis bounds
         if (transform.position.z < -zBound) 
         {
-            transform.position = new Vector3 (-zBound, transform.position.x, transform.position.x);
+            transform.position = new Vector3 (transform.position.x, transform.position.y, -zBound);
         }
         if (transform.position.z > zBound) 
         {
-            transform.position = new Vector3 (zBound, transform.position.x, transform.position.x);
+            transform.position = new Vector3 (transform.position.x, transform.position.y, zBound);
         }
     }
 }
