@@ -42,11 +42,11 @@ public class PlayerController : MonoBehaviour
         // Z axis bounds
         if (transform.position.z < -zBound) 
         {
-            transform.position = new Vector3 (-zBound, transform.position.y, transform.position.x);
+            transform.position = new Vector3 (-zBound, transform.position.x, transform.position.x);
         }
         if (transform.position.z > zBound) 
         {
-            transform.position = new Vector3 (zBound, transform.position.y, transform.position.x);
+            transform.position = new Vector3 (zBound, transform.position.x, transform.position.x);
         }
     }
 }
