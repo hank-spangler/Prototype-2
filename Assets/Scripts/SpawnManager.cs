@@ -28,7 +28,7 @@ public class SpawnManager : MonoBehaviour
     
     void SpawnEnemy(int enemiesToSpawn)
     {
-        for (int i < 3; i = enemiesToSpawn; i++)
+        for (int i = 3; i < enemiesToSpawn; i++)
         {
             Instantiate(enemyPrefab, GenerateSpawnPosition(), enemyPrefab.transform.rotation);
         }
